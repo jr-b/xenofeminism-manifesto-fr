@@ -1,0 +1,54 @@
+% Base document to build the manifesto on 4.25 in x 11 in page size
+% Test on overleaf.com
+
+\documentclass{article}
+%\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\usepackage[main=french]{babel}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\usepackage{sectsty}
+\allsectionsfont{\raggedleft}
+
+% Hyphenation rules
+% Can define custom hyphenation rule for specific words
+%--------------------------------------
+\usepackage{hyphenat}
+\hyphenation{mathéma-tiques récu-pérer}
+%--------------------------------------
+
+% Typography setup
+% Custom font files must be in the same directory
+%--------------------------------------
+\setmainfont{Adelphe-FructidorRegular.ttf}[SizeFeatures={Size=12}]
+\setlength{\emergencystretch}{2em} % https://tex.stackexchange.com/questions/111948/what-is-a-overfull-hbox-9-89561pt-too-wide
+%--------------------------------------
+
+% Page setup
+% We're planning to print this on 8.5x11 inches paper, folded on the long side. We want page to be 4.25 in 
+%--------------------------------------
+\usepackage[paperheight=11in,paperwidth=4.25in,left=10mm,right=10mm]{geometry}
+%--------------------------------------
+
+
+
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+\onehalfspacing % https://texblog.org/2011/09/30/quick-note-on-line-spacing/
+
+
+
+% ? Make hexa section title automatically with this: https://tex.stackexchange.com/questions/682096/change-page-numbering-in-preamble-latex-counter-modification-hexadecimal-con
+
+% \section*{0x01} % https://www.overleaf.com/learn/latex/Questions/How_do_I_remove_the_numbers_from_section_headings%3F
+
+
+$body$
+
+% \clearpage % https://www.overleaf.com/learn/latex/Line_breaks_and_blank_spaces#Page_breaks
+
+
+\end{document}
