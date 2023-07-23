@@ -6,7 +6,7 @@
 
 - Corriger
 - Espace insécable, ligature, tiret, etc.
-- Intégrer une fonte inclusive https://typotheque.genderfluid.space/, https://velvetyne.fr/, https://typo-inclusive.net/, https://typo-inclusive.net/inventaire/
+- Intégrer une fonte inclusive https://typotheque.genderfluid.space/, https://velvetyne.fr/, https://typo-inclusive.net/inventaire/
 - Préparer un design/mise en page https://www.editionsdivergences.com/, 8.5x11 plié sur le long
 - Scripter la création du pdf avec latex https://jvns.ca/blog/2019/09/01/ways-to-write-zines-without-fancy-tools/
 - Template LaTex + Markdown source + Pandoc export en PDF
