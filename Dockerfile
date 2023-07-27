@@ -8,4 +8,4 @@ RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
 
 WORKDIR /data
 
-ENTRYPOINT [ "/bin/sh", "-c", "pandoc -o out/out.pdf --pdf-engine=xelatex --template=main.tex in.md"]
+ENTRYPOINT [ "/bin/sh", "-c", "pandoc -o out/out.pdf --pdf-engine=xelatex --template=input/main.tex input/manifesto.md"]

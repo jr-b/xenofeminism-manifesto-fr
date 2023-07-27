@@ -11,8 +11,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
       - name: Run CV generation
-        uses: ./ # Uses an action in the root directory
+        uses: action.yml
 
       - name: Commit files
         id: commit
@@ -27,6 +28,7 @@ jobs:
              echo "::set-output name=push::true"
           fi
         shell: bash
+
       - name: Push changes
         if: steps.commit.outputs.push == 'true'
         uses: ad-m/github-push-action@master
