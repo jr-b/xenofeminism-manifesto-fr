@@ -120,9 +120,12 @@ Le xénoféminisme est-il un programme ? Pas si le terme se rapporte à quelqu
 
 Le xénoféminisme indexe le désir de construire un futur autre avec un X triomphant sur un plan interactif. Ce X ne symbolise pas une destination. Il est l’introduction d’une keyframe-topologique pour l’élaboration d’une nouvelle logique. En proclamant un avenir désentravé de la répétition du présent, nous militons pour des capacités ampliatives, pour des espaces de liberté à géométrie plus riche que celles de l’allée, de la chaîne de montage et du bac d’alimentation. Nous avons besoin de nouvelles capacités de perception et d’action dont le champ ne soit pas réduit par les identités naturalisées. Au nom du féminisme, la « Nature » ne doit plus être un refuge d’injustice, ou le fondement de quelque justification politique que ce soit !
 
+
 Si la nature est injuste, changez la nature !
 
+
 ———
+
 
 Traduit de l’anglais par Marie-Mathilde Burdeau. Translated in 2016.
 Corrigé et édité sous format zine en 2023.
