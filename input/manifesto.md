@@ -28,7 +28,7 @@ L’excès de modestie des programmes féministes de ces dernières décennies n
 
 ### 0x06
 
-La complexité du monde actuel nous confronte à des exigences éthiques et cognitives pressantes. Autant de responsabilités prométhéennes dont on ne peut se détourner. Une large part du féminisme du XXIe siècle — des vestiges de la politique identitaire postmoderne à de vastes pans de l’écoféminisme contemporain — lutte pour aborder ces défis de façon adéquate afin de permettre un changement réel et durable. Le xénoféminisme s’efforce de faire face à ces obligations en tant d’agents collectifs capables d’assurer une transition entre de multiples niveaux d’organisation politique, matérielle et conceptuelle.
+La complexité du monde actuel nous confronte à des exigences éthiques et cognitives pressantes. Autant de responsabilités prométhéennes dont on ne peut se détourner. Une large part du féminisme du XXI^e^ siècle — des vestiges de la politique identitaire postmoderne à de vastes pans de l’écoféminisme contemporain — lutte pour aborder ces défis de façon adéquate afin de permettre un changement réel et durable. Le xénoféminisme s’efforce de faire face à ces obligations en tant d’agents collectifs capables d’assurer une transition entre de multiples niveaux d’organisation politique, matérielle et conceptuelle.
 
 ### 0x07
 
@@ -88,7 +88,7 @@ Non que la distinction entre l’ontologique et le normatif, entre le fait et la
 
 ### 0x13
 
-Les possibilités qu’offrait la première culture, textuelle, de l’internet — résister aux régimes de genres répressifs, générer une solidarité parmi les groupes marginalisés et créer ces nouveaux espaces d’expérimentation qui furent à l’origine du cyberféminisme des années 1990 — se sont nettement réduites au XXIe siècle. La prédominance du visuel dans les interfaces en ligne actuelles a réinstauré des modes bien connus de politique identitaire, des relations de pouvoir et des normes de genre dans la représentation de soi. Mais cela ne signifie pas que les sensibilités cyberféministes appartiennent au passé. Démêler les possibilités subversives des possibilités oppressives latentes du web actuel requiert un féminisme sensible au retour insidieux des anciennes structures de pouvoir, également assez malin pour savoir exploiter le potentiel ainsi offert. Les technologies numériques sont inséparables des réalités matérielles qui les sous-tendent ; toutes deux sont articulées de telle manière que les unes peuvent être utilisées pour modifier les autres à des fins différentes. Plutôt que de militer pour la primauté du virtuel sur le matériel, ou du matériel sur le virtuel, le xénoféminisme repère leurs points de puissance et d’impuissance respectifs afin d’employer cette connaissance pour intervenir de manière efficace sur notre réalité conjointe.
+Les possibilités qu’offrait la première culture, textuelle, de l’internet — résister aux régimes de genres répressifs, générer une solidarité parmi les groupes marginalisés et créer ces nouveaux espaces d’expérimentation qui furent à l’origine du cyberféminisme des années 1990 — se sont nettement réduites au XXI^e^ siècle. La prédominance du visuel dans les interfaces en ligne actuelles a réinstauré des modes bien connus de politique identitaire, des relations de pouvoir et des normes de genre dans la représentation de soi. Mais cela ne signifie pas que les sensibilités cyberféministes appartiennent au passé. Démêler les possibilités subversives des possibilités oppressives latentes du web actuel requiert un féminisme sensible au retour insidieux des anciennes structures de pouvoir, également assez malin pour savoir exploiter le potentiel ainsi offert. Les technologies numériques sont inséparables des réalités matérielles qui les sous-tendent ; toutes deux sont articulées de telle manière que les unes peuvent être utilisées pour modifier les autres à des fins différentes. Plutôt que de militer pour la primauté du virtuel sur le matériel, ou du matériel sur le virtuel, le xénoféminisme repère leurs points de puissance et d’impuissance respectifs afin d’employer cette connaissance pour intervenir de manière efficace sur notre réalité conjointe.
 
 ### 0x14
 
@@ -120,12 +120,7 @@ Le xénoféminisme est-il un programme ? Pas si le terme se rapporte à quelqu
 
 Le xénoféminisme indexe le désir de construire un futur autre avec un X triomphant sur un plan interactif. Ce X ne symbolise pas une destination. Il est l’introduction d’une keyframe-topologique pour l’élaboration d’une nouvelle logique. En proclamant un avenir désentravé de la répétition du présent, nous militons pour des capacités ampliatives, pour des espaces de liberté à géométrie plus riche que celles de l’allée, de la chaîne de montage et du bac d’alimentation. Nous avons besoin de nouvelles capacités de perception et d’action dont le champ ne soit pas réduit par les identités naturalisées. Au nom du féminisme, la « Nature » ne doit plus être un refuge d’injustice, ou le fondement de quelque justification politique que ce soit !
 
-
 Si la nature est injuste, changez la nature !
-
-
-———
-
 
 Traduit de l’anglais par Marie-Mathilde Burdeau. Translated in 2016.
 Corrigé et édité sous format zine en 2023.
