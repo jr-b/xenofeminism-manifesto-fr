@@ -1,26 +1,26 @@
-name: Build PDF
+# name: Build PDF
 
-on: push
+# on: push
 
-jobs:
-  build-pdf:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+# jobs:
+#   build-pdf:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout repo
+#         uses: actions/checkout@v3
 
-      - name: generate pdf with pandoc
-        uses: docker://pandoc/extra:3.1.1.0
-        with:
-          entrypoint: pandoc.sh
-          args: >-
-            --pdf-engine=xelatex
-            --template=main.tex
-            --output=out.pdf
-            in.md
+#       - name: generate pdf with pandoc
+#         uses: docker://pandoc/extra:3.1.1.0
+#         with:
+#           entrypoint: pandoc.sh
+#           args: >-
+#             --pdf-engine=xelatex
+#             --template=main.tex
+#             --output=out.pdf
+#             in.md
 
-      # - name: setup python and run imposition script
-      #   uses: actions/setup-python@v4
-      #   with:
-      #     python-version: "3.10"
-      #   - run: python my_script.py
+# - name: setup python and run imposition script
+#   uses: actions/setup-python@v4
+#   with:
+#     python-version: "3.10"
+#   - run: python my_script.py
