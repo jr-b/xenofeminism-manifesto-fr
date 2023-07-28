@@ -1,4 +1,6 @@
-# action.yml
+on:
+  workflow_call:
+
 name: "Build LaTeX resume PDF"
 description: "Commit to master to trigger auto build, pdf in out folder"
 runs:
