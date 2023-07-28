@@ -8,7 +8,7 @@ The original manifesto can be found here: https://laboriacuboniks.net/manifesto/
 
 - Copy edit, proofread the French version
 - Add typography small touches: unbreakable spaces, thin spaces, etc.
-- Use an inclusive font, such as https://typotheque.genderfluid.space/index.html
+- Use an inclusive font, such as those listed here: https://typotheque.genderfluid.space/index.html
 - Build a LaTeX template
 - Build a cover page with LaTeX
 - Use a GitHub Workflow to produce the final PDF
@@ -16,7 +16,7 @@ The original manifesto can be found here: https://laboriacuboniks.net/manifesto/
 
 ## Local export
 
-`pandoc -o out.pdf --pdf-engine=xelatex --template=main.tex in.md`
+`pandoc -o out.pdf --pdf-engine=xelatex --template=input/main.tex input/manifesto.md`
 
 ## About the font used: Adelphe
 

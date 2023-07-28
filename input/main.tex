@@ -9,6 +9,7 @@
 \usepackage{setspace}
 \usepackage{hyperref}
 \usepackage{import}
+\usepackage{fancyhdr}
 
 \usepackage{sectsty}
 \allsectionsfont{\raggedleft}
@@ -32,6 +33,13 @@
 %--------------------------------------
 \usepackage[paperheight=11in,paperwidth=4.25in,left=5mm,right=5mm,top=10mm]{geometry}
 %--------------------------------------
+
+\pagestyle{fancy}
+% Clear the header and footer
+\fancyhead{}
+\fancyfoot{}
+% Set the right side of the footer to be the page number
+\fancyfoot[R]{\thepage}
 
 
 
