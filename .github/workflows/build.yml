@@ -2,7 +2,12 @@
 
 name: Update pdf
 
-on: push
+on:
+  push:
+    paths-ignore:
+      - ".gitattributes"
+      - ".gitignore"
+      - "README*.md"
 
 jobs:
   generate_cv_job:
