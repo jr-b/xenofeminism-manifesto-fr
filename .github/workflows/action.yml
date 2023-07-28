@@ -3,6 +3,8 @@ on:
 
 jobs:
   BuildLaTeX:
-    runs:
-      using: "docker"
-      image: "Dockerfile"
+    steps:
+      - name: build latex
+        runs:
+          using: "docker"
+          image: "Dockerfile"
