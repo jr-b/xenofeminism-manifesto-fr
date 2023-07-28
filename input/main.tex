@@ -1,14 +1,14 @@
 % Base document to build the manifesto on 4.25 in x 11 in page size
 % Test on overleaf.com
 
-\documentclass{article}
+\documentclass{book}
 %\usepackage[T1]{fontenc}
 \usepackage{fontspec}
 \usepackage[main=french]{babel}
 \usepackage[verbose=silent]{microtype}
 \usepackage{setspace}
 \usepackage{hyperref}
-
+\usepackage{import}
 
 \usepackage{sectsty}
 \allsectionsfont{\raggedleft}
@@ -46,7 +46,7 @@
 
 % \section*{0x01} % https://www.overleaf.com/learn/latex/Questions/How_do_I_remove_the_numbers_from_section_headings%3F
 
-\include{cover}
+\import{./}{cover.tex}
 
 $body$
 
