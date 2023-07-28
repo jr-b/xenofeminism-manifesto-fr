@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run CV generation
-        uses: ./.github/workflows/action.yml
+        uses: ./
 
       - name: Commit files
         id: commit
