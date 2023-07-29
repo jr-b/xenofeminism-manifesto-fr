@@ -14,8 +14,11 @@ wget https://github.com/rrthomas/pdfjam/releases/download/v3.06/pdfjam-3.06.tar.
 echo "Extracting pdfjam"
 tar -xvf pdfjam-3.06.tar.gz
 
-echo "running pdfjam"
+echo "running pdfjam - normal pdf"
 ./pdfjam-3.06/bin/pdfjam --batch --nup 2x1 --suffix 2up --twoside --openright true --no-landscape output/out.pdf --outfile output/
+
+echo "running pdfjam - print pdf"
+./pdfjam-3.06/bin/pdfjam --batch --nup 2x1 --suffix 2up-print --twoside --openright true --signature 8 --no-landscape output/out.pdf --outfile output/
 
 echo "deleting stuff"
 rm pdfjam-3.06.tar.gz
