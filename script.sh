@@ -15,4 +15,8 @@ echo "Extracting pdfjam"
 tar -xvf pdfjam-3.06.tar.gz
 
 echo "running pdfjam"
-./pdfjam-3.06/bin/pdfjam --batch --nup 2x1 --suffix 2up --no-landscape output/out.pdf --outfile output/
+./pdfjam-3.06/bin/pdfjam --batch --nup 2x1 --suffix 2up --twoside --openright true --no-landscape output/out.pdf --outfile output/
+
+echo "deleting stuff"
+rm pdfjam-3.06.tar.gz
+rm -r pdfjam-3.06/
