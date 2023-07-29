@@ -6,8 +6,6 @@ RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
     && apt-get install texlive-latex-base texlive-xetex texlive-lang-french texlive-latex-extra texlive-fonts-recommended pandoc xzdec -y \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /data
-
 # Copy the application in folder found in $PATH
 COPY ./script.sh /usr/bin/
 
