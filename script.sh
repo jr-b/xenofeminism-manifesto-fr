@@ -21,7 +21,7 @@ echo "running pdfjam - test pdf"
 ./pdfjam-3.06/bin/pdfjam --batch --nup 2x1 --booklet true --suffix 2up --twoside --openright true --no-landscape --outfile output/ output/outbooklet.pdf
 
 echo "running pdfjam - print pdf"
-./pdfjam-3.06/bin/pdfjam --suffix print --twoside --signature 8 --landscape false --outfile output/ output/out-2up.pdf 
+./pdfjam-3.06/bin/pdfjam --suffix print --twoside --signature 4 --no-landscape --outfile output/ output/out-2up.pdf 
 
 echo "deleting stuff"
 rm pdfjam-3.06.tar.gz
