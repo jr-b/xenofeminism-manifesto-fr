@@ -17,8 +17,11 @@ tar -xvf pdfjam-3.06.tar.gz
 echo "running pdfjam - normal pdf"
 ./pdfjam-3.06/bin/pdfjam --batch --nup 2x1 --suffix 2up --twoside --openright true --no-landscape --outfile output/ output/out.pdf
 
+echo "running pdfjam - test pdf"
+./pdfjam-3.06/bin/pdfjam --batch --nup 2x1 --booklet true --suffix 2up --twoside --openright true --no-landscape --outfile output/ output/outbooklet.pdf
+
 echo "running pdfjam - print pdf"
-./pdfjam-3.06/bin/pdfjam --suffix 2up-print --twoside --openright true --signature 8 --outfile output/ output/out-2up.pdf 
+./pdfjam-3.06/bin/pdfjam --suffix print --twoside --signature 8 --landscape false --outfile output/ output/out-2up.pdf 
 
 echo "deleting stuff"
 rm pdfjam-3.06.tar.gz
