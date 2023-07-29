@@ -20,7 +20,7 @@ echo "running pdfjam - normal pdf"
 echo "running pdfjam - print pdf"
 # Signature => how many pdf pages per paper sheet, including both sides
 # In our case, we want 2 pages on the front, 2 pages on the back, so its a signature of 4 pages
-./pdfjam-3.06/bin/pdfjam --suffix booklet --twoside --booklet --no-landscape --outfile output/ output/out-2up.pdf 
+./pdfjam-3.06/bin/pdfjam --suffix booklet --booklet true --no-landscape --outfile output/ output/out-2up.pdf 
 
 echo "deleting stuff"
 rm pdfjam-3.06.tar.gz
