@@ -17,9 +17,6 @@ tar -xvf pdfjam-3.06.tar.gz
 echo "running pdfjam - normal pdf"
 ./pdfjam-3.06/bin/pdfjam --batch --nup 2x1 --suffix 2up --twoside --openright true --no-landscape --outfile output/ output/out.pdf
 
-echo "running pdfjam - test pdf"
-./pdfjam-3.06/bin/pdfjam --batch --nup 2x1 --booklet true --suffix 2up --twoside --openright true --no-landscape --outfile output/ output/outbooklet.pdf
-
 echo "running pdfjam - print pdf"
 # Signature => how many pdf pages per paper sheet, including both sides
 # In our case, we want 2 pages on the front, 2 pages on the back, so its a signature of 4 pages
