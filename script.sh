@@ -7,4 +7,5 @@ pandoc -o output/out.pdf --pdf-engine=xelatex --template=input/main.tex input/ma
 
 sleep 10
 
-touch output/test.txt
+echo $(python -V) >> output/python-version
+echo $(pip -V) >> output/python-version
