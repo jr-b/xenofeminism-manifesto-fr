@@ -8,4 +8,10 @@ RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
 
 WORKDIR /data
 
-ENTRYPOINT [ "/bin/sh", "-c", "pandoc -o output/out.pdf --pdf-engine=xelatex --template=input/main.tex input/manifesto.md"]
+# Copy the application in folder found in $PATH
+COPY ./app.sh /usr/bin/
+
+# Make file executable
+RUN chmod 755 /usr/bin/app.sh
+
+ENTRYPOINT ["/usr/bin/script.sh"]

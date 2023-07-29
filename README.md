@@ -1,6 +1,6 @@
 # Xenofeminism manifesto
 
-> Small publishing/edition project of the French version of the Xenofeminism manifesto, written by the Laboria Cuboniks collective.
+> Small publishing/editing project of the French version of the Xenofeminism manifesto, written by the Laboria Cuboniks collective.
 
 The original manifesto can be found here: https://laboriacuboniks.net/manifesto/
 
@@ -12,11 +12,11 @@ The original manifesto can be found here: https://laboriacuboniks.net/manifesto/
 - Build a LaTeX template
 - Build a cover page with LaTeX
 - Use a GitHub Workflow to produce the final PDF
-- Produce a small zine from the LaTeX files
+- Print/produce a small zine from the LaTeX files
 
 ## Local export
 
-`pandoc -o out.pdf --pdf-engine=xelatex --template=input/main.tex input/manifesto.md`
+`pandoc -o ~/out.pdf --pdf-engine=xelatex --template=input/main.tex input/manifesto.md`
 
 ## About the font used: Adelphe
 
