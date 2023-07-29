@@ -1,8 +1,7 @@
 FROM alpine:latest
 
-RUN apt-get update && apt-get upgrade -y \
-    && apt-get install wget python3-pip texlive-latex-base texlive-xetex texlive-lang-french texlive-latex-extra texlive-fonts-recommended pandoc xzdec -y \
-    && rm -rf /var/lib/apt/lists/*
+RUN apk update && apk upgrade --available \
+    && apk add wget python3-pip texlive-latex-base texlive-xetex texlive-lang-french texlive-latex-extra texlive-fonts-recommended pandoc xzdec -y \
 
 # Copy the application in folder found in $PATH
 COPY ./script.sh /usr/bin/
