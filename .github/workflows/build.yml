@@ -10,14 +10,14 @@ on:
       - "README*.md"
 
 jobs:
-  generate_cv_job:
+  generate_pdf:
     runs-on: ubuntu-latest
     name: gen-pdf
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Run CV generation
+      - name: Run PDF generation
         uses: ./
 
       - name: Commit files

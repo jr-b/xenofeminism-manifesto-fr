@@ -1,6 +1,6 @@
 # action.yml
-name: "Build LaTeX resume PDF"
-description: "Commit to master to trigger auto build, pdf in out folder"
+name: "Build LaTeX PDF"
+description: "Commit to master to trigger auto build, pdf in output folder"
 runs:
   using: "docker"
   image: "Dockerfile"
