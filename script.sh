@@ -9,3 +9,7 @@ sleep 10
 
 echo $(python3 -V) >> output/python-version
 echo $(pip3 -V) >> output/python-version
+
+pip3 install --no-input pdfnup==0.4.1
+
+echo $(pdfnup -h) >> output/pdfnup

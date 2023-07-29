@@ -12,7 +12,7 @@ on:
 jobs:
   generate_pdf:
     runs-on: ubuntu-latest
-    name: gen-pdf
+    name: generate-pdf
     steps:
       - name: Checkout
         uses: actions/checkout@v2
