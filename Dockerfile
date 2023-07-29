@@ -3,7 +3,7 @@ FROM ubuntu:latest
 RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
     && echo "Etc/UTC" > /etc/timezone \
     && apt-get update && apt-get upgrade -y \
-    && apt-get install python3-pip texlive-latex-base texlive-xetex texlive-lang-french texlive-latex-extra texlive-fonts-recommended pandoc xzdec -y \
+    && apt-get install wget python3-pip texlive-latex-base texlive-xetex texlive-lang-french texlive-latex-extra texlive-fonts-recommended pandoc xzdec -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy the application in folder found in $PATH
