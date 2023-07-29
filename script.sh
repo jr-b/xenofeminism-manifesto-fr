@@ -18,10 +18,9 @@ echo "running pdfjam - normal pdf"
 ./pdfjam-3.06/bin/pdfjam --batch --nup 2x1 --suffix 2up --twoside --openright true --no-landscape --outfile output/ output/out.pdf
 
 echo "running pdfjam - print pdf"
-# https://equa.space/notes/pdfjam/
-# Signature => how many pdf pages per paper sheet, including both sides
-# In our case, we want 2 pages on the front, 2 pages on the back, so its a signature of 4 pages
-./pdfjam-3.06/bin/pdfjam output/out.pdf '8,9,10,7,6,11,12,5,4,13,14,3,2,15,16,1' --nup 2x1 --twoside --suffix print --outfile output/
+# If our total pages number changes, we need to rebuild the imposition!
+# Delta add spaces between each pages on the spread 
+./pdfjam-3.06/bin/pdfjam output/out.pdf '9,10,11,8,7,12,13,6,5,14,15,4,3,16,17,2,{},{},{},1' --nup 2x1 --twoside --delta '1cm 0cm' --outfile output/out-print.pdf
 
 echo "deleting stuff"
 rm pdfjam-3.06.tar.gz
