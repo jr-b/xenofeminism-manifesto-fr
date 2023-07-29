@@ -9,6 +9,10 @@ RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
 # Copy the application in folder found in $PATH
 COPY ./script.sh /usr/bin/
 
+# Copy input/output folder
+COPY output/ /output
+COPY input/ /intput
+
 # Make file executable
 RUN chmod 755 /usr/bin/script.sh
 
