@@ -9,9 +9,9 @@ RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
 WORKDIR /data
 
 # Copy the application in folder found in $PATH
-COPY ./app.sh /usr/bin/
+COPY ./script.sh /usr/bin/
 
 # Make file executable
-RUN chmod 755 /usr/bin/app.sh
+RUN chmod 755 /usr/bin/script.sh
 
 ENTRYPOINT ["/usr/bin/script.sh"]
