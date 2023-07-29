@@ -14,7 +14,7 @@ echo $(pip3 -V) >> output/python-version
 ## https://tug.org/texlive/quickinstall.html
 
 wget https://github.com/rrthomas/pdfjam/releases/download/v3.06/pdfjam-3.06.tar.gz -O /tmp/pdfjam-3.06.tar.gz
-zcat < /tmp/pdfjam-3.06.tar.gz | tar xf -
+tar -xvf /tmp/pdfjam-3.06.tar.gz
 echo $(pwd) >> output/python-version
 cd /tmp/pdfjam-3.06/bin
 ./pdfjam --batch --nup 2x1 --suffix 2up --landscape output/out.pdf
