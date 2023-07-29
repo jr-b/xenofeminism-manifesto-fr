@@ -125,5 +125,3 @@ Si la nature est injuste, changez la nature !\
 ---
 
 > Traduit de l’anglais en 2016 par Marie-Mathilde Burdeau. Corrigé et édité sous format zine en 2023.
-
-> _Notice typographique_. Ce manifeste est ici composé en caractère Adelphe Fructidor. L’Adelphe est une famille de caractères typographiques dessinés par Eugénie Bidaut dans le cadre de son projet de recherche mené à l’Atelier national de recherche typographique (ANRT) de 2020 à 2022. Ils sont encodés en accord avec le standard de la Queer Unicode Initiative (QUNI) développé par Bye Bye Binary. Et ils sont distribués sous l’Open Inclusif..ve Fonte Licence (OIFL).
