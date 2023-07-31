@@ -2,7 +2,7 @@
 
 > Small publishing/editing project of the French version of the Xenofeminism manifesto, written by the Laboria Cuboniks collective.
 
-The original manifesto can be found here: https://laboriacuboniks.net/manifesto/
+The original Xenofeminism manifesto can be found here: https://laboriacuboniks.net/manifesto/
 
 ## Objectives
 
@@ -14,10 +14,6 @@ The original manifesto can be found here: https://laboriacuboniks.net/manifesto/
 - Use a GitHub Workflow to produce the final PDF
 - Print/produce a small zine from the LaTeX files
 
-## Local export
-
-`pandoc -o ~/out.pdf --pdf-engine=xelatex --template=input/main.tex input/manifesto.md`
-
 ## Steps to print
 
 0. Make sure your source Markdown document is final, reviewed and ready for print.
@@ -26,7 +22,13 @@ The original manifesto can be found here: https://laboriacuboniks.net/manifesto/
 3. Edit `script.sh` and the `pdfjam` command to make the PDF imposition for print, following the front/back order, flipped on the long side. If your source PDF has less pages than the final print PDF, make sure to add the blank pages somewhere in the imposition with `{}`.
 4. Validate that the outputed PDF matches with the dummy booklet you made.
 
-## About the font used: Adelphe
+## Run locally
+
+To only generate the PDF with `pandoc`:
+
+`pandoc -o ~/out.pdf --pdf-engine=xelatex --template=input/main.tex input/manifesto.md`
+
+## About the font used: Adelphe Fructidor
 
 Source: https://gitlab.com/Eugenie-B/adelphe
 
