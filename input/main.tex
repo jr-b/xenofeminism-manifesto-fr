@@ -1,7 +1,7 @@
 % Base document to build the manifesto on 4.25 in x 11 in page size
 % Test on overleaf.com
 
-\documentclass[11pt]{book}
+\documentclass[12pt]{book}
 %\usepackage[T1]{fontenc}
 \usepackage{fontspec}
 \usepackage[main=french]{babel}
@@ -11,7 +11,7 @@
 \usepackage{import}
 \usepackage{fancyhdr}
 \usepackage[dvipsnames]{xcolor}
-
+\usepackage{lmodern}
 \usepackage{sectsty}
 \allsectionsfont{\raggedleft}
 
@@ -25,7 +25,7 @@
 % Typography setup
 % Custom font files must be in the same directory
 %--------------------------------------
-\setmainfont{Adelphe-FructidorRegular.ttf}[SizeFeatures={Size=12}]
+\setmainfont{Adelphe-FructidorRegular.ttf}%[SizeFeatures={Size=12}]
 \setlength{\emergencystretch}{2em} % https://tex.stackexchange.com/questions/111948/what-is-a-overfull-hbox-9-89561pt-too-wide
 %--------------------------------------
 
@@ -50,7 +50,6 @@
 \setcounter{secnumdepth}{0}
 
 \begin{document}
-\onehalfspacing % https://texblog.org/2011/09/30/quick-note-on-line-spacing/
 
 
 
@@ -59,6 +58,15 @@
 % \section*{0x01} % https://www.overleaf.com/learn/latex/Questions/How_do_I_remove_the_numbers_from_section_headings%3F
 
 \import{input/}{cover.tex}
+\clearpage
+\begin{quote}
+\singlespacing
+{\footnotesize Laboria Cuboniks (née en 2014) est un collectif xénoféministe, réparti dans cinq pays et sur trois continents. Elle cherche à démanteler le genre, à détruire « la famille » et à se débarrasser de la nature comme garante des positions politiques inégalitaires. Son nom est un anagramme de « Nicolas Bourbaki », pseudonyme sous lequel un groupe de mathématiciens majoritairement français a œuvré à l'affirmation de l'abstraction, de la généralité et de la rigueur en mathématiques au début du XXe siècle. }
+\clearpage
+\end{quote}
+
+\onehalfspacing % https://texblog.org/2011/09/30/quick-note-on-line-spacing/
+
 $body$
 \import{input/}{end.tex}
 

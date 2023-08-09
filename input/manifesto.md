@@ -1,5 +1,3 @@
-> Laboria Cuboniks (b. 2014) is a xenofeminist collective, spread across five countries and three continents. She seeks to dismantle gender, destroy ‘the family,’ and do away with nature as a guarantor for inegalitarian political positions. Her name is an anagram of ‘Nicolas Bourbaki’, a pseudonym under which a group of largely French mathematicians worked towards an affirmation of abstraction, generality and rigour in mathematics in the early twentieth century.
-
 ## Zéro
 
 ### 0x00
