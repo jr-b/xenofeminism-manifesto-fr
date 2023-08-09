@@ -20,7 +20,7 @@ echo "running pdfjam - normal pdf"
 echo "running pdfjam - print pdf"
 # If our total pages number changes, we need to rebuild the imposition!
 # Delta add spaces between each pages on the spread 
-./pdfjam-3.06/bin/pdfjam output/out.pdf '9,10,11,8,7,12,13,6,5,14,15,4,3,16,17,2,{},{},{},1' --nup 2x1 --twoside --delta '1cm 0cm' --outfile output/out-print.pdf
+./pdfjam-3.06/bin/pdfjam output/out.pdf '12,13,14,11,10,15,16,9,8,17,18,7,6,19,20,5,4,{},{},3,2,{},{},1' --nup 2x1 --twoside --delta '1cm 0cm' --outfile output/out-print.pdf
 
 echo "deleting stuff"
 rm pdfjam-3.06.tar.gz
