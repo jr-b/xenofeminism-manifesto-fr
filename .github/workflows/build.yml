@@ -4,10 +4,10 @@ name: Update pdf
 
 on:
   push:
-    paths-ignore:
-      - ".gitattributes"
-      - ".gitignore"
-      - "README*.md"
+    paths:
+      - "Dockerfile"
+      - "script.sh"
+      - "input/**"
 
 jobs:
   generate_pdf:
