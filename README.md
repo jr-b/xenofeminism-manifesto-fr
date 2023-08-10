@@ -14,6 +14,12 @@ The original Xenofeminism manifesto can be found here: https://laboriacuboniks.n
 - Use a GitHub Workflow to produce the final PDF
 - Print/produce a small zine from the LaTeX files
 
+## Final result
+
+Here's the final printed result. Hand-stitched with orange sewing thread. Laser printed on 8.5" x 11" paper, folded in half on the long side.
+
+![The manifesto, laser printed, hand-stitched after the LaTeX processing.](/assets/myimage.gif)
+
 ## Steps to print
 
 0. Make sure your source Markdown document is final, reviewed and ready for print.
@@ -44,3 +50,4 @@ Source: https://gitlab.com/Eugenie-B/adelphe
 - https://gist.github.com/michaelt/1017790
 - https://gitlab.com/severinkaderli/pandoc-latex-templates/-/tree/master/templates
 - https://typo-inclusive.net/inventaire/
+- https://www.loc.gov/preservation/resources/educational/bookarts/pamphlet.pdf
