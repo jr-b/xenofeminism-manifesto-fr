@@ -1,5 +1,4 @@
 % Base document to build the manifesto on 4.25 in x 11 in page size
-% Test on overleaf.com
 
 \documentclass[12pt]{book}
 %\usepackage[T1]{fontenc}
@@ -30,14 +29,12 @@
 %--------------------------------------
 
 % Page setup
-% We're planning to print this on 8.5x11 inches paper, folded on the long side. We want page to be 4.25 in 
+% We're planning to print this on 8.5x11 inches paper, folded on the long side. We want page to be around 4.25 in 
 %--------------------------------------
 \usepackage[paperheight=11in,paperwidth=4.15in,left=5mm,right=5mm,top=10mm,bottom=15mm]{geometry}
 %--------------------------------------
 
-
 % Footer & page number configuration
-% 
 \pagestyle{fancy}
 % Clear the header and footer
 \fancyhead{}
@@ -46,16 +43,9 @@
 \fancyfoot[R]{\thepage}
 \renewcommand{\headrulewidth}{0pt}
 
-
 \setcounter{secnumdepth}{0}
 
 \begin{document}
-
-
-
-% ? Make hexa section title automatically with this: https://tex.stackexchange.com/questions/682096/change-page-numbering-in-preamble-latex-counter-modification-hexadecimal-con
-
-% \section*{0x01} % https://www.overleaf.com/learn/latex/Questions/How_do_I_remove_the_numbers_from_section_headings%3F
 
 \import{input/}{cover.tex}
 \clearpage
@@ -74,8 +64,5 @@
 $body$
 \newpage
 \import{input/}{end.tex}
-
-% \clearpage % https://www.overleaf.com/learn/latex/Line_breaks_and_blank_spaces#Page_breaks
-
 
 \end{document}
