@@ -3,6 +3,8 @@
 \documentclass[12pt]{book}
 %\usepackage[T1]{fontenc}
 \usepackage{fontspec}
+\usepackage{url}
+\usepackage[T1]{fontenc}
 \usepackage[main=french]{babel}
 \usepackage[verbose=silent]{microtype}
 \usepackage{setspace}
@@ -47,11 +49,21 @@
 
 \begin{document}
 
+\makeatletter
+% Inspired by http://anti.teamidiot.de/nei/2009/09/latex_url_slash_spacingkerning/
+% but slightly less kern and shorter underscore
+\let\UrlSpecialsOld\UrlSpecials
+\def\UrlSpecials{\UrlSpecialsOld\do\/{\Url@slash}\do\_{\Url@underscore}}%
+\def\Url@slash{\@ifnextchar/{\kern-.11em\mathchar47\kern-.2em}%
+    {\kern-.0em\mathchar47\kern-.08em\penalty\UrlBigBreakPenalty}}
+\def\Url@underscore{\nfss@text{\leavevmode \kern.06em\vbox{\hrule\@width.3em}}}
+\makeatother
+
 \import{input/}{cover.tex}
 \clearpage
 \begin{quote}
 \singlespacing
-{\footnotesize Laboria Cuboniks\footnote{\fontfamily{lmtt}\selectfont https://laboriacuboniks.net} (née en 2014) est un collectif xénoféministe, réparti dans cinq pays et sur trois continents. Elle cherche à démanteler le genre, à détruire « la famille » et à se débarrasser de la nature comme garante des positions politiques inégalitaires. Son nom est un anagramme de « Nicolas Bourbaki », pseudonyme sous lequel un groupe de mathématiciens majoritairement français a œuvré à l'affirmation de l'abstraction, de la généralité et de la rigueur en mathématiques au début du XXe siècle.}
+{\footnotesize Laboria Cuboniks\footnote{\url https://laboriacuboniks.net} (née en 2014) est un collectif xénoféministe, réparti dans cinq pays et sur trois continents. Elle cherche à démanteler le genre, à détruire « la famille » et à se débarrasser de la nature comme garante des positions politiques inégalitaires. Son nom est un anagramme de « Nicolas Bourbaki », pseudonyme sous lequel un groupe de mathématiciens majoritairement français a œuvré à l'affirmation de l'abstraction, de la généralité et de la rigueur en mathématiques au début du XXe siècle.}
 \begin{center}
 \line(1,0){70}
 \end{center}
